@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="Your form has been submitted">
+      <h2>Manual Bill Entry</h2>
+      <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+          <th>Sr.No</th>
+          <th>Item Name</th>
+          <th>Price Per Item</th>
+          <th>Quantity (User Input)</th>
+          <th>Total Price (User Input)</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Note Book</td>
+          <td>5$</td>
+          <td>
+            <input type="quantity" name="quantity" placeholder="Enter qty" />
+          </td>
+          <td>
+            <input type="price" name="Enter bill" placeholder="Enter Total" />
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Pen</td>
+          <td>1$</td>
+          <td>
+            <input type="quantity" name="quantity" placeholder="Enter qty" />
+          </td>
+          <td>
+            <input type="price" name="Enter bill" placeholder="Enter Total" />
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Bag</td>
+          <td>20$</td>
+          <td>
+            <input type="quantity" name="quantity" placeholder="Enter qty" />
+          </td>
+          <td>
+            <input type="price" name="Enter bill" placeholder="Enter Total" />
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="right">Total Bill (User Input)</th>
+          <td>
+            <input type="price" name="Enter bill" placeholder="Total Bill" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <input type="submit" name="submit" value="Submit Bill" />
+      <p>
+        <i>Note for students</i>: Calculate total price yourself (Quantity *
+        Price) and fill in the total manually
+      </p>
+    </form>
+  </body>
+</html>

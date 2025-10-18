@@ -1,0 +1,474 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.mainclass
+{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: black;
+     width: 100%; 
+}
+
+header{
+    background-image: url(access/goku3.jpg);
+    background-position: center;
+    background-size: cover;
+    /* display: flex; */
+    height: 100vh;
+    /* width: 100vw; */
+    
+}
+.container1{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.glass
+{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+}
+img{
+    width: 20px;
+}
+.items
+{
+    display: flex;
+}
+.into
+{
+    display: flex;
+}
+#item1
+{
+    padding: 20px;
+}
+#item2
+{
+    padding: 20px;
+}
+#item3
+{
+    padding: 20px;
+}
+#item4
+{
+    padding: 20px;
+}
+#item5
+{
+    padding: 20px;
+}
+.menu
+{
+    padding: 20px;
+}
+.bell
+{
+    padding: 20px;
+}
+.search
+{
+    padding: 20px;
+}
+.item6
+{
+    text-align: center;
+}
+button
+{
+    color: white;
+    background-color:black;
+    height: 30px;
+    width: 105px;
+    border-radius: 60px;
+    border-color: aliceblue;
+}
+button:hover
+{
+    transition: 2s ease;
+    transform: scale(1.3);
+    border-color: pink;
+    color: pink;
+    background-color:rgb(223, 116, 116);
+}
+.container
+{
+    border: 100%;
+}
+ .back-video
+ {
+    position: absolute;
+     right: 0%;
+     bottom: 0; 
+     width: 100%;  
+     z-index: -1;
+}
+
+#item7
+{
+    color: pink;
+    font-size: 70px;
+}
+#item8
+{
+    color: white;
+    
+}
+#item9
+{
+    font-size: 40px;
+    text-align: center;
+}
+#item10
+{
+   color: orange;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+}
+.hero
+{
+  margin-top: 100px; 
+}
+#item11
+{
+    width: 400px;
+
+}
+#item12
+{
+    width: 400px;
+
+}
+#item13
+{
+    width: 400px;
+}
+.hero3
+{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+figcaption>h2{
+    text-align: center;
+}
+#item11:hover
+{
+     transition: 2s ease;
+    transform: scale(1.3);
+}
+#item12:hover
+{
+     transition: 2s ease;
+    transform: scale(1.3);
+}
+#item13:hover
+{
+     transition: 2s ease;
+    transform: scale(1.3);
+}
+.item14
+{
+    padding: 30px 0px 10px;
+}
+.item15
+{
+    padding: 30px 0px 10px;
+}
+.item16
+{
+    padding: 30px 0px 10px;
+}
+#item18{
+    max-width: 400px;
+    text-align: center;
+}
+#item17
+{
+    text-align: center;
+    color: black;
+}
+#item17:hover
+{
+    color:chocolate;
+}
+.hero-section1
+{
+    margin-top: 20%;
+    background-image:  url(access/goku3.jpg);
+    background-size: cover;
+}
+#item19
+{
+    right: 0%;
+     bottom: 0; 
+     width: 100%;  
+     z-index: -1;
+}
+#item20
+{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#item21
+{
+    color: orange;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#item22
+{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+#item23
+{
+    color: white;
+    font-size: 20px;
+}
+#item24
+{
+    color: white;
+}
+#item25
+{
+    color: white;
+   font-size: 20px; 
+}
+#item26
+{
+    color: white;
+}
+.container3
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.container4
+{
+    display: flex;
+    justify-content: space-between;
+}
+.container5
+{
+    margin-top: 80px;
+}
+.hero4>img 
+{
+    width: 400px;
+}
+#item27
+{
+    width: 100px;
+}
+.container6
+{
+    display: flex;
+    justify-content: space-between;
+} 
+#item28
+{
+    text-align: center;
+}
+.hero-section2
+{
+    display: flex;
+    justify-content: space-around;
+}
+#item29
+{
+    max-width: 500px;
+}
+#item30
+{
+    width: 700px;
+}
+#item31
+{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+#item32
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+}
+#item33
+{
+    width: 150px;
+    color: white;
+    background-color: black;
+}
+#item34
+{
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+#item35
+{
+    background-color: black;
+    color: white;
+
+}
+.hero5
+{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.hero6
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-top: 20%;
+}
+#item37
+{
+     width: 165px;
+    background-color: black;
+    color: white;
+}
+#item39
+{
+     width: 165px;
+    background-color: black;
+    color: white;
+}
+#item38
+{
+    color: white;
+}
+#item40
+{
+    color: white;
+    background-color: black;
+}
+#item41
+{
+    text-decoration:white;
+    background-color: black;
+    width: 100px;
+}
+#item42
+{
+    text-decoration:white;
+    background-color: black;
+    width: 100px;
+}
+.hero7
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-top: 20%;
+}
+.hero-section3
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+.container8
+{
+    background-color: black;
+    width: 100%;
+}
+#item43
+{
+    margin-top: 20%;
+    justify-content: flex-end;
+}
+#item44
+{
+    width: 35px;
+    margin-top: 5%;
+}
+#item45
+{
+    margin-top: 15%;
+    text-align: center;
+}
+#item46
+{
+    text-align: center;
+    color: white;
+}
+.hero8
+{
+    margin-top: 5%;
+}
+
+#item47
+{
+    max-width: 400px;
+    margin-top: 5%;
+    color: white;
+}
+#item48
+{
+    text-align: center;
+    color: white;
+}
+.container9
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+#item49
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: gray;
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+#item50
+{
+    margin-top: 10%;
+    font-size: 20px;
+    color: white;
+}
+#item51
+{
+    text-align: center;
+    color: white;
+}
+#item52
+{
+    text-align: center;
+    color: white;
+}
+.container10
+{
+    background-color:gray;
+    height: 480px;
+}

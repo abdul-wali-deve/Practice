@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.colour{
+    margin: 0% auto;
+}
+nav.colour{
+       background-color: blueviolet;
+        text-transform: uppercase;
+        height: 70px;
+        text-align: center;
+}
+nav>a{
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav>a:hover{
+    text-decoration:  underline;
+}
+div.yellow{
+    margin: 1% auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: orange;
+    height: 150px;
+    color: white;
+}
+/* div.about{
+    padding: 10%;
+    display: inline-block;
+} */
+
+.about-container{
+    background-color: red;
+}
+
+.about{
+    width:50%;
+    margin:0 auto ;
+}
+.hora{
+    background-color: gray;
+    padding:20px;
+    border-left: 2px solid blue;
+}
+h2{
+    text-align: center;
+}
+p.para{
+    text-align: center;
+}
+p.hello{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+p.hora{
+    font-style: italic;
+    color: rgb(94, 33, 100);
+}
+h2>a{
+    text-align: center;
+    color: aqua;
+ }
+ div>fieldset{
+    background-color: bisque;
+    color: dimgray;
+    height: 200px;
+    margin: 20px 400px 20px 400px;
+ }
+ p.abdul{
+    background-color: rgb(200,120,90);
+    font-style: italic;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: lighter;
+    
+ }
+p.wali{
+    background-color: rgb(40, 67, 170);
+    text-align: center;
+    
+}
+div>h2:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(133, 19, 130);
+}
+fieldset
+  {
+    justify-content: center;
+   align-items: center;
+   background-color: white;
+   margin: 25%;
+   padding: 10px;
+   height: 350px;
+   width: 300px;
+   align-self: center;
+    border-radius: 10px;
+}
+.item3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item4{
+ 
+    text-align: center;
+}
+.item1{
+    background-color: rgb(133, 19, 130);
+    color: white;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+}
+.item2{
+    height: 30px;
+    width: 100px;
+    align-self: center;
+}
+input{
+    height: 40px;
+    width: 350px;
+}
+.item5{
+    align-self: center;
+}
+.item6{
+    color: rgb(133, 19, 130) ;
+}
+.item7{
+    text-align: center;
+}
+.item8{
+    background-color: rgb(133, 19, 130);
+    color: white;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    justify-content: center;
+    align-self: center;
+    height: 40px;
+    width: 350px;
+}
+.item9{
+    text-align: center;
+}
